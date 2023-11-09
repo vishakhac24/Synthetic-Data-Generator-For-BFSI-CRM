@@ -29,3 +29,17 @@ def generate_social_media_handle(first_name, last_name):
     last_name_lower = last_name.lower()
     handle = f"{first_name_lower}_{last_name_lower}_{random.randint(10, 99)}"
     return handle
+
+# Generate basic customer information
+for _ in range(num_records):
+    customer_id = fake.uuid4()
+    first_name = fake.first_name()
+    last_name = fake.last_name()
+    gender = random.choice(['Male', 'Female'])
+    dob = fake.date_of_birth(minimum_age=18, maximum_age=65)
+    contact_number = fake.phone_number()
+    address = fake.address()
+    city = fake.city()
+    state = fake.state()
+    postal_code = fake.postcode()
+    country = 'India'
