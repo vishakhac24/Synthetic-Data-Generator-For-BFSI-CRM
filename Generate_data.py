@@ -14,3 +14,7 @@ data = []
 num_records = 1000
 
 word_list = words.words()
+
+# Define positive and negative feedback keywords
+positive_keywords = ['Great', 'Excellent', 'Satisfied', 'Helpful']
+negative_keywords = ['Poor', 'Unsatisfactory', 'Disappointed', 'Confusing']
