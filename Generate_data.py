@@ -18,3 +18,7 @@ word_list = words.words()
 # Define positive and negative feedback keywords
 positive_keywords = ['Great', 'Excellent', 'Satisfied', 'Helpful']
 negative_keywords = ['Poor', 'Unsatisfactory', 'Disappointed', 'Confusing']
+
+# Create a function to generate feedback
+def generate_feedback():
+    return f"{random.choice(positive_keywords)}: {fake.sentence()}"
