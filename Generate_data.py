@@ -57,3 +57,9 @@ for _ in range(num_records):
     purchase_amount = round(random.uniform(5000, 100000), 2)
     payment_method = random.choice(['Debit Card', 'Internet Banking', 'Cheque', 'UPI'])
     order_status = random.choice(['Pending', 'Completed', 'Cancelled'])
+
+    # Generate financial data
+    account_balance = round(random.uniform(1000, 50000), 2)
+    credit_score = random.randint(300, 850)
+    loan_amount = round(random.uniform(10000, 500000), 2)
+    interest_rate = round(random.uniform(5, 15), 2)
