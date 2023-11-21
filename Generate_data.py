@@ -43,3 +43,9 @@ for _ in range(num_records):
     state = fake.state()
     postal_code = fake.postcode()
     country = 'India'
+
+    # Generate customer email addresses
+    def generate_email(first_name, last_name):
+        email_provider = random.choice(['gmail.com', 'yahoo.com', 'outlook.com', 'rediffmail.com.', 'icloud.com'])
+        email = f"{first_name.lower()}.{last_name.lower()}@{email_provider}"
+        return email
