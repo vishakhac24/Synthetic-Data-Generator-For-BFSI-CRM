@@ -49,3 +49,11 @@ for _ in range(num_records):
         email_provider = random.choice(['gmail.com', 'yahoo.com', 'outlook.com', 'rediffmail.com.', 'icloud.com'])
         email = f"{first_name.lower()}.{last_name.lower()}@{email_provider}"
         return email
+    
+    # Generate transactional data
+    transaction_id = fake.uuid4()
+    transaction_date = fake.date_time_this_year()
+    product = random.choice(['Savings Account', 'Credit Card', 'Personal Loan', 'Fixed Deposit'])
+    purchase_amount = round(random.uniform(5000, 100000), 2)
+    payment_method = random.choice(['Debit Card', 'Internet Banking', 'Cheque', 'UPI'])
+    order_status = random.choice(['Pending', 'Completed', 'Cancelled'])
