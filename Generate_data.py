@@ -77,3 +77,7 @@ for _ in range(num_records):
     else:
         interaction_subject = f"Online Banking Help"
         notes = f"Customer needing assistance with online banking login issues."
+        
+    # Generate behavioral data
+    website_visits = random.randint(1, 50)
+    time_spent = random.randint(10, 180)
