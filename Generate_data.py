@@ -87,3 +87,10 @@ for _ in range(num_records):
     post_comment_date = fake.date_time_this_month()
     sentiment = random.choice(['Positive', 'Negative', 'Neutral'])
     engagement_metrics = random.randint(0, 100)
+    
+    # Generate survey and feedback data
+    survey_id = fake.uuid4()
+    survey_responses = generate_feedback()
+    feedback_date = fake.date_time_this_month()
+    ratings = random.randint(1, 5)
+    feedback_comments = generate_feedback()
