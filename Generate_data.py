@@ -63,3 +63,17 @@ for _ in range(num_records):
     credit_score = random.randint(300, 850)
     loan_amount = round(random.uniform(10000, 500000), 2)
     interest_rate = round(random.uniform(5, 15), 2)
+    
+    # Generate interaction history
+    interaction_date = fake.date_time_this_month()
+    interaction_type = random.choice(['Email', 'Call', 'Chat'])
+
+    if interaction_type == 'Email':
+        interaction_subject = f"Account Statement Request"
+        notes = f"Customer inquiring about their recent transactions and account balance."
+    elif interaction_type == 'Call':
+        interaction_subject = f"Home Loan Inquiry"
+        notes = f"Customer interested in getting information about home loan options."
+    else:
+        interaction_subject = f"Online Banking Help"
+        notes = f"Customer needing assistance with online banking login issues."
