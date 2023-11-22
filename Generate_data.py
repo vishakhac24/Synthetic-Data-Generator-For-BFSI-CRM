@@ -94,3 +94,8 @@ for _ in range(num_records):
     feedback_date = fake.date_time_this_month()
     ratings = random.randint(1, 5)
     feedback_comments = generate_feedback()
+    
+    # Generate purchase frequency and patterns
+    frequency_of_purchase = random.choice(['High', 'Medium', 'Low'])
+    recurring_purchases = random.choice(['Yes', 'No'])
+    seasonal_patterns = random.choice(['Spring', 'Summer', 'Fall', 'Winter'])
