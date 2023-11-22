@@ -81,3 +81,9 @@ for _ in range(num_records):
     # Generate behavioral data
     website_visits = random.randint(1, 50)
     time_spent = random.randint(10, 180)
+    
+    # Generate social media interactions
+    social_media_platform = random.choice(['Facebook', 'Twitter', 'Instagram'])
+    post_comment_date = fake.date_time_this_month()
+    sentiment = random.choice(['Positive', 'Negative', 'Neutral'])
+    engagement_metrics = random.randint(0, 100)
