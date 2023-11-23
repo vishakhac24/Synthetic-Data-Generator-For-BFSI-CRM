@@ -108,3 +108,6 @@ for _ in range(num_records):
     # Generate churn data
     churn_status = random.choice(['Churned', 'Active'])
     churn_date = fake.date_this_year() if churn_status == 'Churned' else None
+    
+    # Generate social media handle
+    social_media_handle = generate_social_media_handle(first_name, last_name)
