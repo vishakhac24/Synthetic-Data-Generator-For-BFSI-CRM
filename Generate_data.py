@@ -99,3 +99,8 @@ for _ in range(num_records):
     frequency_of_purchase = random.choice(['High', 'Medium', 'Low'])
     recurring_purchases = random.choice(['Yes', 'No'])
     seasonal_patterns = random.choice(['Spring', 'Summer', 'Fall', 'Winter'])
+    
+    # Generate customer segmentation data
+    customer_segment = random.choice(['Segment A', 'Segment B', 'Segment C'])
+    segment_preferences = generate_feedback()
+    segment_behavior = generate_feedback()
