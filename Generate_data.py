@@ -50,6 +50,8 @@ for _ in range(num_records):
         email = f"{first_name.lower()}.{last_name.lower()}@{email_provider}"
         return email
     
+    email = generate_email(first_name, last_name)
+    
     # Generate transactional data
     transaction_id = fake.uuid4()
     transaction_date = fake.date_time_this_year()
