@@ -140,3 +140,6 @@ for _ in range(num_records):
            'Social Media Handle']
     
     df = pd.DataFrame(data, columns=columns)
+    
+    # Save the DataFrame to a CSV file
+    df.to_csv('D:\Synthetic-Data-Generator-For-BFSI-CRM\data.csv', index=False)
