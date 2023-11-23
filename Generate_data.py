@@ -104,3 +104,7 @@ for _ in range(num_records):
     customer_segment = random.choice(['Segment A', 'Segment B', 'Segment C'])
     segment_preferences = generate_feedback()
     segment_behavior = generate_feedback()
+    
+    # Generate churn data
+    churn_status = random.choice(['Churned', 'Active'])
+    churn_date = fake.date_this_year() if churn_status == 'Churned' else None
