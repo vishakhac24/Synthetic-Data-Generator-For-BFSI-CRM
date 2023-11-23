@@ -125,3 +125,16 @@ for _ in range(num_records):
                  churn_status, churn_date,
                  social_media_handle])
     
+    # Create a DataFrame from the generated data
+    columns = ['Customer ID', 'First Name', 'Last Name', 'Gender', 'Date of Birth', 'Contact Number', 'Email ID', 'Address', 'City', 'State',
+           'Postal Code', 'Country',
+           'Transaction ID', 'Transaction Date', 'Product', 'Purchase Amount', 'Payment Method', 'Order Status',
+           'Account Balance', 'Credit Score', 'Loan Amount', 'Interest Rate',
+           'Interaction Date', 'Interaction Type', 'Interaction Subject', 'Notes',
+           'Website Visits', 'Time Spent',
+           'Social Media Platform', 'Post/Comment Date', 'Sentiment', 'Engagement Metrics',
+           'Survey ID', 'Survey Responses', 'Feedback Date', 'Ratings', 'Feedback Comments',
+           'Frequency of Purchase', 'Recurring Purchases', 'Seasonal Patterns',
+           'Customer Segment', 'Segment Preferences', 'Segment Behavior',
+           'Churn Status', 'Churn Date',
+           'Social Media Handle']
