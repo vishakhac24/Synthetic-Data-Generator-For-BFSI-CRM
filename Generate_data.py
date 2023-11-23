@@ -138,3 +138,5 @@ for _ in range(num_records):
            'Customer Segment', 'Segment Preferences', 'Segment Behavior',
            'Churn Status', 'Churn Date',
            'Social Media Handle']
+    
+    df = pd.DataFrame(data, columns=columns)
