@@ -111,3 +111,17 @@ for _ in range(num_records):
     
     # Generate social media handle
     social_media_handle = generate_social_media_handle(first_name, last_name)
+    
+    # Append data to the list
+    data.append([customer_id, first_name, last_name, gender, dob, contact_number, email, address, city, state, postal_code, country,
+                 transaction_id, transaction_date, product, purchase_amount, payment_method, order_status,
+                 account_balance, credit_score, loan_amount, interest_rate,
+                 interaction_date, interaction_type, interaction_subject, notes,
+                 website_visits, time_spent,
+                 social_media_platform, post_comment_date, sentiment, engagement_metrics,
+                 survey_id, survey_responses, feedback_date, ratings, feedback_comments,
+                 frequency_of_purchase, recurring_purchases, seasonal_patterns,
+                 customer_segment, segment_preferences, segment_behavior,
+                 churn_status, churn_date,
+                 social_media_handle])
+    
