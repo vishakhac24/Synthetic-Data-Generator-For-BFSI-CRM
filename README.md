@@ -15,3 +15,17 @@ The BFSI-CRM Synthetic Data Generator creates realistic and diverse datasets tha
 - **Customizable Parameters:** Tailor the data generation process with customizable parameters such as transaction types, product offerings, and communication channels.
 
 - **Privacy-Focused:** Generate synthetic data that adheres to privacy regulations, ensuring confidentiality while maintaining the realism of the dataset.
+
+## 🛠️ Getting Started
+
+1. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Run the data generation script:
+    ```bash
+    python Generate_data.py
+    ```
+
+3. Find your synthetic customer data in `data/customer_data.csv`.
