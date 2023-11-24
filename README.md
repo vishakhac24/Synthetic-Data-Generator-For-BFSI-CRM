@@ -29,3 +29,14 @@ The BFSI-CRM Synthetic Data Generator creates realistic and diverse datasets tha
     ```
 
 3. Find your synthetic customer data in `data/customer_data.csv`.
+
+## 📋 Project Structure
+
+- `Generate_data.py`: Main script for synthetic data generation.
+- `data/customer_data.csv`: Output CSV file containing synthetic customer data.
+
+## 🤖 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## <p align="center">Happy data generating! 🌐✨</p>
