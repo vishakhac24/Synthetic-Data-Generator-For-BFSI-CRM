@@ -5,3 +5,13 @@ Welcome to the Synthetic Data Generator for BFSI-CRM! This project allows you to
 ## Overview 📚
 
 The BFSI-CRM Synthetic Data Generator creates realistic and diverse datasets that mimic customer interactions within the BFSI sector. It's a powerful tool for testing and development, providing a privacy-conscious and customizable solution for generating large volumes of synthetic data.
+
+## Features 🌟
+
+- **Versatile Data Generation:** Generate a wide range of customer data, including personal information, transactional data, financial details, and interaction history.
+
+- **Realistic Customer Profiles:** Mimic real-world scenarios by creating customer profiles with authentic names, addresses, contact details, and more.
+
+- **Customizable Parameters:** Tailor the data generation process with customizable parameters such as transaction types, product offerings, and communication channels.
+
+- **Privacy-Focused:** Generate synthetic data that adheres to privacy regulations, ensuring confidentiality while maintaining the realism of the dataset.
